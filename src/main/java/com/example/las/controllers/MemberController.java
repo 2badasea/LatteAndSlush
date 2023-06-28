@@ -24,6 +24,6 @@ public class MemberController {
         list = memberService.memberList();
         model.addAttribute("members", list);
 
-        return "/member/memberList";
+        return "/band/memberList";
     }
 }
